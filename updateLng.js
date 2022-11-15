@@ -3,6 +3,9 @@ const fs = require("fs");
 const ko = "./src/locales/default.ko.json";
 const en = "./src/locales/default.en.json";
 
+const SHEET_ID = "";
+const GOOGLE_API_KEY = "";
+
 const options = {
   uri: `https://sheets.googleapis.com/v4/spreadsheets/${SHEET_ID}/values/main?key=${GOOGLE_API_KEY}`,
 };
