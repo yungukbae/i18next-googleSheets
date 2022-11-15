@@ -1,7 +1,10 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 function App() {
-  return <div className="App">App</div>;
+  const { t } = useTranslation();
+
+  return <div className="App"></div>;
 }
 
 export default App;
